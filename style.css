@@ -192,7 +192,7 @@ nav.sticky .menu-btn{
 
 .logos {
   display: grid; /* Use CSS Grid */
-  grid-template-columns: repeat(3, auto); /* Adjust the number of logos per row */
+  grid-template-columns: repeat(4, auto); /* Adjust the number of logos per row */
   gap: 10px; /* Space between logos */
   justify-content: start; /* Align logos to the left; change to end for right alignment */
   margin-top: 20px; /* Add some spacing from the content above */
