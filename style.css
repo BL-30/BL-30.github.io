@@ -190,6 +190,11 @@ nav.sticky .menu-btn{
 }
 
 
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adds spacing between logos */
+}
 
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
