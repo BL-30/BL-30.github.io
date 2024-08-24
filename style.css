@@ -191,9 +191,15 @@ nav.sticky .menu-btn{
 
 
 .logos {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* Adds spacing between logos */
+  display: flex; /* Use flexbox to align items inline */
+  justify-content: flex-end; /* Align logos to the right */
+  gap: 10px; /* Space between logos */
+  margin-top: 20px; /* Add some spacing from the content above */
+}
+
+.logos img {
+  height: 40px;
+  width: 40px;
 }
 
 /* About Section Styling */
