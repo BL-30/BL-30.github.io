@@ -203,6 +203,31 @@ nav.sticky .menu-btn{
   width: 40px;
 }
 
+.affiliations {
+  margin-top: 30px; /* Adds some space between the sections */
+  padding: 20px; /* Adds padding inside the section */
+  display: flex; /* Display as flex container */
+  justify-content: flex-end; /* Align logos to the right */
+  flex-direction: column; /* Stack universities and employers vertically */
+}
+
+.universities, .employers {
+  margin-bottom: 20px; /* Space between universities and employers sections */
+  text-align: right; /* Aligns titles to the right */
+}
+
+.logo-row {
+  display: flex; /* Use flexbox to align logos in a row */
+  justify-content: flex-end; /* Align logos to the right */
+  gap: 10px; /* Space between logos */
+}
+
+.logo-row img {
+  height: 80px;
+  width: 80px;
+}
+
+
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
  I'm Selecting Directly 'Section Tag' and 'Class'  */
