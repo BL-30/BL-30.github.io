@@ -228,42 +228,6 @@ nav.sticky .menu-btn{
 }
 
 
-
-.home-content-container {
-  display: flex; /* Creates a flex container for two-column layout */
-  align-items: center; /* Centers content vertically */
-  justify-content: space-between; /* Space out text and logos horizontally */
-  padding: 20px; /* Adds padding around the container */
-}
-
-.home-text {
-  flex: 1; /* Allows the text container to take up remaining space */
-  max-width: 50%; /* Limits the maximum width of the text container */
-}
-
-.home-logos {
-  flex: 1; /* Allows the logos container to take up remaining space */
-  display: flex; /* Creates a flex container for rows of logos */
-  flex-direction: column; /* Stack logo sections vertically */
-  align-items: flex-end; /* Align logos to the right */
-  text-align: right; /* Align text to the right */
-}
-
-.logos {
-  margin-bottom: 20px; /* Adds space between university and employer logos */
-}
-
-.logos h3 {
-  margin-bottom: 10px; /* Adds space below the section titles */
-}
-
-.logos img {
-  margin-left: 10px; /* Adds space between each logo horizontally */
-  margin-top: 5px; /* Adds space between each logo vertically */
-}
-
-
-
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
  I'm Selecting Directly 'Section Tag' and 'Class'  */
