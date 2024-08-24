@@ -189,48 +189,7 @@ nav.sticky .menu-btn{
   margin: 14px 0;
 }
 
-.home-content {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    position: relative;
-  }
 
-  .school-logos {
-    display: flex;
-    flex-direction: column; /* Align logos vertically */
-    gap: 10px; /* Space between logos */
-    position: absolute;
-    left: 10px; /* Adjust positioning as needed */
-    top: 20px; /* Adjust positioning as needed */
-  }
-
-  .school-logo {
-    width: 30px; /* Smaller size for logos */
-    height: auto;
-    margin-bottom: 10px; /* Space between logos */
-  }
-
-  .text {
-    margin-left: 80px; /* Provide space for the logos */
-  }
-
-  .button {
-    margin-top: 20px;
-  }
-
-  .fcc-btn {
-    background-color: #0073b1;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-
-  .fcc-btn:hover {
-    background-color: #005582;
-  }
 
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
